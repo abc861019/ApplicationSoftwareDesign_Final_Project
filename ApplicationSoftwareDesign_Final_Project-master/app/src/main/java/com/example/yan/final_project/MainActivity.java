@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity
         mp.start();
         Intent it = new Intent(this ,play_activity.class);
         startActivityForResult(it,123);
+
     }
 
 }
